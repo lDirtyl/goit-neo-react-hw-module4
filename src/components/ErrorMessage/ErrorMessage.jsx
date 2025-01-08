@@ -1,7 +1,3 @@
-const ErrorMessage = () => {
-    return(
-        <div></div>
-    )
-}
-
-export default ErrorMessage;
+export default function ErrorMessage() {
+    return <p>Oops...some error. Please reload</p>;
+  }
